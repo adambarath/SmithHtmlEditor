@@ -1,9 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Core", "_Core", "{FC1DBB03-3B53-4405-A3D0-4FD7EA1125F6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmithHtmlEditor", "SmithHtmlEditor\SmithHtmlEditor.csproj", "{84BADDA1-AB3A-4064-B87E-178D7446901D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmithHtmlEditor.Demo", "SmithHtmlEditor.Demo\SmithHtmlEditor.Demo.csproj", "{941EB254-38F8-4B0B-ABE1-426D6C04AEC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmithHtmlEditor.Demo", "SmithHtmlEditor.Demo\SmithHtmlEditor.Demo.csproj", "{328E36D2-2207-4FEC-B222-819F2C8615BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,12 +19,18 @@ Global
 		{84BADDA1-AB3A-4064-B87E-178D7446901D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84BADDA1-AB3A-4064-B87E-178D7446901D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84BADDA1-AB3A-4064-B87E-178D7446901D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{941EB254-38F8-4B0B-ABE1-426D6C04AEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{941EB254-38F8-4B0B-ABE1-426D6C04AEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{941EB254-38F8-4B0B-ABE1-426D6C04AEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{941EB254-38F8-4B0B-ABE1-426D6C04AEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328E36D2-2207-4FEC-B222-819F2C8615BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328E36D2-2207-4FEC-B222-819F2C8615BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328E36D2-2207-4FEC-B222-819F2C8615BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328E36D2-2207-4FEC-B222-819F2C8615BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84BADDA1-AB3A-4064-B87E-178D7446901D} = {FC1DBB03-3B53-4405-A3D0-4FD7EA1125F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5653267-1356-48E4-9D8E-03F26F4C3513}
 	EndGlobalSection
 EndGlobal

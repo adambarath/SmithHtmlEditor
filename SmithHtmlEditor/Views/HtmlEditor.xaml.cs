@@ -10,7 +10,7 @@ using System.Windows.Media;
 using System.Windows.Threading;
 using System.Xml;
 using System.Xml.XPath;
-using mshtml;
+using MSHTML;
 
 namespace Smith.WPF.HtmlEditor
 {

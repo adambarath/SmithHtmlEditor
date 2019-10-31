@@ -7,6 +7,7 @@
              xmlns:local="clr-namespace:Smith.WPF.HtmlEditor"
              xmlns:resc="clr-namespace:Smith.WPF.HtmlEditor.Resources"
              x:Name="This">
+    <!---->
     <UserControl.Resources>
         <Style x:Key="ToolBarImage"
                TargetType="{x:Type Image}">

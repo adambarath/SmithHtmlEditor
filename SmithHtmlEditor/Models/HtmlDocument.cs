@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using mshtml;
+using MSHTML;
 
 namespace Smith.WPF.HtmlEditor
 {
@@ -15,7 +15,7 @@ namespace Smith.WPF.HtmlEditor
         internal HtmlDocument(System.Windows.Forms.HtmlDocument htmlDocument)
         {
             sysWinFormHtmlDoc = htmlDocument;
-            msHtmlDocInterface = (mshtml.IHTMLDocument2)htmlDocument.DomDocument;
+            msHtmlDocInterface = (MSHTML.IHTMLDocument2)htmlDocument.DomDocument;
         }
 
         /// <summary>
@@ -262,7 +262,7 @@ namespace Smith.WPF.HtmlEditor
         private System.Windows.Forms.HtmlDocument sysWinFormHtmlDoc;
 
         // IHTMLDocument2 接口的引用
-        private mshtml.IHTMLDocument2 msHtmlDocInterface;
+        private MSHTML.IHTMLDocument2 msHtmlDocInterface;
 
         /// <summary>
         /// 用于封装 mshtml.IHTMLTxtRange 接口。
@@ -270,7 +270,7 @@ namespace Smith.WPF.HtmlEditor
         /// </summary>
         public class Range
         {
-            internal Range(mshtml.IHTMLTxtRange range)
+            internal Range(MSHTML.IHTMLTxtRange range)
             {
                 msHtmlTxRange = range;
             }
@@ -401,7 +401,7 @@ namespace Smith.WPF.HtmlEditor
             }
 
             // IHTMLTxtRange 接口的引用
-            private mshtml.IHTMLTxtRange msHtmlTxRange;
+            private MSHTML.IHTMLTxtRange msHtmlTxRange;
         }
     }
 }
