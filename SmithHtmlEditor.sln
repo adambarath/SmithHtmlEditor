@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29326.143
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Core", "_Core", "{FC1DBB03-3B53-4405-A3D0-4FD7EA1125F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Core", "_Core", "{13A72214-F515-4A3B-A326-97D515EF988A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmithHtmlEditor", "SmithHtmlEditor\SmithHtmlEditor.csproj", "{84BADDA1-AB3A-4064-B87E-178D7446901D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E48D935A-0EDC-4A36-8B3F-042D0FF35A00}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmithHtmlEditor.Demo", "SmithHtmlEditor.Demo\SmithHtmlEditor.Demo.csproj", "{328E36D2-2207-4FEC-B222-819F2C8615BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmithHtmlEditor", "SmithHtmlEditor\SmithHtmlEditor.csproj", "{F7BF772A-2646-4EFF-BD6C-FA8A48BD7340}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmithHtmlEditor.Demo", "SmithHtmlEditor.Demo\SmithHtmlEditor.Demo.csproj", "{DBCE0725-B05D-4262-9173-32EAE4E36E0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,22 +17,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{84BADDA1-AB3A-4064-B87E-178D7446901D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84BADDA1-AB3A-4064-B87E-178D7446901D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84BADDA1-AB3A-4064-B87E-178D7446901D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84BADDA1-AB3A-4064-B87E-178D7446901D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{328E36D2-2207-4FEC-B222-819F2C8615BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{328E36D2-2207-4FEC-B222-819F2C8615BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{328E36D2-2207-4FEC-B222-819F2C8615BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{328E36D2-2207-4FEC-B222-819F2C8615BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BF772A-2646-4EFF-BD6C-FA8A48BD7340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BF772A-2646-4EFF-BD6C-FA8A48BD7340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BF772A-2646-4EFF-BD6C-FA8A48BD7340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BF772A-2646-4EFF-BD6C-FA8A48BD7340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCE0725-B05D-4262-9173-32EAE4E36E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCE0725-B05D-4262-9173-32EAE4E36E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCE0725-B05D-4262-9173-32EAE4E36E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCE0725-B05D-4262-9173-32EAE4E36E0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{84BADDA1-AB3A-4064-B87E-178D7446901D} = {FC1DBB03-3B53-4405-A3D0-4FD7EA1125F6}
+		{F7BF772A-2646-4EFF-BD6C-FA8A48BD7340} = {13A72214-F515-4A3B-A326-97D515EF988A}
+		{DBCE0725-B05D-4262-9173-32EAE4E36E0A} = {E48D935A-0EDC-4A36-8B3F-042D0FF35A00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C5653267-1356-48E4-9D8E-03F26F4C3513}
+		SolutionGuid = {0DF8BBA1-1A19-4601-A90A-22AF96E7B137}
 	EndGlobalSection
 EndGlobal

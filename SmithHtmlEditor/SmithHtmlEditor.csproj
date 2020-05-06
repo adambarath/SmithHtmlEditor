@@ -1,12 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
   <PropertyGroup>
-    <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
+
+    <TargetFrameworks>netcoreapp3.0;netcoreapp3.1;net461;net462;net47;net471;net472;net48</TargetFrameworks>
+    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+
     <RootNamespace>Smith.WPF.HtmlEditor</RootNamespace>
     <AssemblyName>Smith.WPF.HtmlEditor</AssemblyName>
   </PropertyGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <!-- ULTIMATE HACK: https://stackoverflow.com/questions/48440223/assets-file-project-assets-json-not-found-run-a-nuget-package-restore -->
+    <Exec Command="dotnet restore" />
+  </Target>
 
   <ItemGroup>
     <COMReference Include="MSHTML.dll">
