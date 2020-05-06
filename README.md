@@ -29,6 +29,10 @@ Skype: @adambarath
 
 ## Updates ##
 
+2020/05/06
+1. extend target frameworks to netcoreapp3.0;netcoreapp3.1;net461;net462;net47;net471;net472;net48
+2. add pre-build event to do dotnet restore. Issue description at https://stackoverflow.com/questions/48440223/assets-file-project-assets-json-not-found-run-a-nuget-package-restore
+
 2019/10/31
 1. update to NetCore 3.0 
 

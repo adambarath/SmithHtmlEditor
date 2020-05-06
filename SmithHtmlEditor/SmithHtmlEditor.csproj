@@ -3,12 +3,27 @@
   <PropertyGroup>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
-
     <TargetFrameworks>netcoreapp3.0;netcoreapp3.1;net461;net462;net47;net471;net472;net48</TargetFrameworks>
     <RuntimeIdentifier>win-x86</RuntimeIdentifier>
 
     <RootNamespace>Smith.WPF.HtmlEditor</RootNamespace>
     <AssemblyName>Smith.WPF.HtmlEditor</AssemblyName>
+    <Company>BRUPPER Gp.</Company>
+    <Authors>adambarath</Authors>
+    <Description>WYSIWYG rich text editor which enables writing content directly inside of wpf applications.</Description>
+    <Copyright>John Smith - https://archive.codeplex.com/?p=smithhtmleditor</Copyright>
+    <PackageProjectUrl>https://github.com/adambarath/SmithHtmlEditor</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/adambarath/SmithHtmlEditor</RepositoryUrl>
+    <PackageTags>Smith.WPF.HtmlEditor HtmlEditor WPF</PackageTags>
+    <PackageReleaseNotes>
+      2020/05/06
+      1. extend target frameworks to netcoreapp3.0;netcoreapp3.1;net461;net462;net47;net471;net472;net48
+      2. add pre-build event to do dotnet restore. Issue description at https://stackoverflow.com/questions/48440223/assets-file-project-assets-json-not-found-run-a-nuget-package-restore
+      
+      2019/10/31
+      update to NetCore 3.0
+      </PackageReleaseNotes>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">

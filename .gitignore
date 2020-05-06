@@ -335,3 +335,5 @@ ASALocalRun/
 /Source/LMA.Android/Resources/Resource.designer.cs
 /Dependences/XAML to HTML Conversion Demo.zip
 /Dependences/smithhtmleditor.zip
+/Scripts/nuget/Nuget API key.txt
+/Scripts/nuget/publish.bat
