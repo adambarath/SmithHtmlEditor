@@ -269,7 +269,7 @@ namespace Smith.WPF.HtmlEditor
 
         private void OnTimerTick(object sender, EventArgs e)
         {
-            if (htmldoc.State != HtmlDocumentState.Complete) return;
+            if (htmldoc?.State != HtmlDocumentState.Complete) return;
 
             ToggleBold.IsChecked = htmldoc.IsBold();
             ToggleItalic.IsChecked = htmldoc.IsItalic();
